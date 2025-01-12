@@ -33,7 +33,7 @@ export class ProjectsComponent {
       description: 'main_content.projects.project_dialog.description_join',
       links: [
         'https://github.com/kondratschin/join',
-        'https://kondratschin.de/projects/join/',
+        'http://join.kondratschin.com/',
       ],
     },
     {
@@ -44,7 +44,7 @@ export class ProjectsComponent {
         'main_content.projects.project_dialog.description_kosp',
       links: [
         'https://github.com/kondratschin/kosp',
-        'https://kondratschin.de/projects/kosp/',
+        'http://kosp.kondratschin.com/',
       ],
     },
     {
