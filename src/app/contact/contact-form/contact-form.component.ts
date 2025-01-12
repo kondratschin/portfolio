@@ -36,7 +36,7 @@ export class ContactFormComponent {
   };
 
   post = {
-    endPoint: 'https://www.kondratschin.de/sendMail.php',
+    endPoint: 'https://www.kondratschin.com/sendMail.php',
     body: (payload: any) => JSON.stringify(payload),
     options: {
       headers: {
