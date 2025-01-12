@@ -153,3 +153,30 @@ df-i {
     font-size: 14px;
   }
 }
+
+
+@media screen and (max-width: 460px) {
+  section {
+    flex-direction: column;
+    padding: 16px;
+
+    > img {
+      width: 100%;
+      padding-bottom: 32px;
+    }
+  }
+
+  .project-description {
+    > button {
+      // flex-direction: column;
+      // align-items: start;
+      padding: 20px 0;
+      gap: 12px;
+      width: 100%;
+    }
+  }
+
+  .separator {
+    font-size: 14px;
+  }
+}
