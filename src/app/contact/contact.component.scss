@@ -1,0 +1,71 @@
+@import "../../styles.scss";
+
+:host {
+  display: flex;
+  background-color: var(--color-background);
+}
+
+h2 {
+  color: var(--color-selected);
+  font-weight: 500;
+}
+
+.contact-text {
+  @include arrangement($fd: column, $ai: flex-start, $g: 16px);
+  width: 100%;
+  @include respond-to("lg") {
+    width: 50%;
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100%;
+  height: 100%;
+}
+
+.success-dialog {
+  width: fit-content;
+  margin: auto;
+  padding: 64px;
+  border-radius: 24px;
+  border: 1px solid var(--color-selected);
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.05);;
+}
+
+.wrapper {
+  @include arrangement($fd: column, $jc: space-between, $ai: flex-start, $g: 64px);
+  @include max-width;
+  width: 100%;
+  @each $breakpoint, $padding in $padding-values {
+    @include respond-to($breakpoint) {
+      padding: $padding;
+    }
+  }
+  @include respond-to("lg") {
+    flex-direction: row;
+  }
+  span:first-of-type {
+    font-family: "Fira Code";
+    font-size: 64px;
+    font-weight: 700;
+    color: var(--color-selected);
+  }
+  span:nth-of-type(2) {
+    font-family: "Fira Code";
+    font-size: 24px;
+    color: var(--color-selected);
+  }
+  p {
+    font-size: 16px;
+    span {
+      color: var(--color-selected);
+      font-size: 16px;
+      font-weight: 700;
+    }
+  }
+}

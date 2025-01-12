@@ -1,0 +1,71 @@
+@import "./../../styles.scss";
+
+section {
+  @include arrangement($jc: space-between);
+  overflow: hidden;
+  padding: 124px;
+  gap: 6%;
+}
+
+.description {
+  @include arrangement($fd: unset, $g: 24px, $ai: flex-start);
+  padding-bottom: 16px;
+}
+
+.content-about {
+  align-self: flex-end;
+  width: 50%;
+}
+
+.profile-picture {
+  position: relative;
+  align-self: flex-start;
+  width: 50%;
+  display: flex;
+  flex: 0 0 auto;
+}
+
+.profile-picture_profil {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  z-index: 30;
+  border-radius: 30px;
+}
+.profile-picture_background {
+  left: -10px;
+  top: 10px;
+  position: absolute;
+  z-index: 20;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1350px) {
+  section {
+    padding: 64px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  section {
+    flex-direction: column;
+    padding: 16px;
+  }
+  .profile-picture{
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .content-about{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .description {
+    > span {
+      font-size: 14px;
+    }
+  }
+}

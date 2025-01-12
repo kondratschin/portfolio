@@ -1,0 +1,318 @@
+{
+  "about_title": "Wer ich bin",
+  "about_header": "Über mich",
+  "about_text": "Als Frontend-Entwickler bringe ich nicht nur Erfahrung in der Gestaltung von ansprechenden und benutzerfreundlichen Websites und Webanwendungen mit, sondern verfüge auch über Expertise im Produktmanagement für erklärungsbedürftige technische Produkte sowie im Sales und Marketing.  Diese Kombination ermöglicht es mir, Projekte ganzheitlich zu betrachten und zum Erfolg zu führen.",
+  "location": "Flexibel in Bezug auf Arbeitsumgebungen: Ich kann sowohl vor Ort im Raum Stuttgart als auch remote oder hybrid arbeiten.",
+  "cognition": "Motiviert durch die grenzenlosen Möglichkeiten der IT, bin ich begeistert davon, visuell ansprechende und intuitive Websites und Anwendungen zu gestalten. Ich bin immer bestrebt, neue Technologien zu lernen und meine Fähigkeiten zu verbessern.",
+  "new_releases": "Ich mag es, komplexe Herausforderungen anzunehmen und durch Programmierung elegante Lösungen zu finden. Ich kann Ihnen helfen, Ihre Prozesse zu optimieren, die Effizienz zu verbessern und letztendlich Ihre Ziele zu erreichen, indem ich benutzerfreundliche Software entwickle, die auf Ihre spezifischen Bedürfnisse zugeschnitten ist.",
+  "check_my_work": "Meine Projekte",
+  "contact_link": "Kontakt",
+  "ticker_text_1": "Offen für neue Herausforderungen",
+  "ticker_text_2": "Standort: Göppingen, Deutschland",
+  "ticker_text_3": "Frontend-Entwickler",
+  "ticker_text_4": "Verfügbar für Remote-Arbeit",
+  "about": "Über mich",
+  "skills": "Fähigkeiten",
+  "projects": "Projekte",
+  "contact.subtitle": "Kontaktieren Sie mich",
+  "contact.title": "Nehmen Sie Kontakt auf",
+  "contact.question1": "Haben Sie ein Problem zu lösen?",
+  "contact.text": "Kontaktieren Sie mich über dieses Formular. Ich freue mich darauf, von Ihnen zu hören, Ihre Ideen kennenzulernen und mit meiner Arbeit zu Ihren Projekten beizutragen.",
+  "contact.question2": "Benötigen Sie einen Frontend-Entwickler?",
+  "contact.cta": "Schreiben Sie mir",
+  "contactForm": {
+    "nameLabel": "Wie ist Ihr Name?",
+    "namePlaceholder": "Ihr Name",
+    "nameError": "Ups! Es scheint, als ob Ihr Name fehlt",
+    "emailLabel": "Wie ist Ihre E-Mail-Adresse?",
+    "emailPlaceholder": "ihreemail@email.com",
+    "emailError": "Hoppla! Ihre E-Mail-Adresse wird benötigt",
+    "emailInvalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "messageLabel": "Wie kann ich Ihnen helfen?",
+    "messagePlaceholder": "Geben Sie eine Nachricht ein...",
+    "messageError": "Was möchten Sie entwickeln?",
+    "privacyPolicy1": "Ich habe die",
+    "privacyPolicy2": "Datenschutzerklärung",
+    "privacyPolicy3": "gelesen und stimme der darin beschriebenen Verarbeitung meiner Daten zu.",
+    "privacyPolicyError": "Bitte akzeptieren Sie die Datenschutzerklärung.",
+    "submitBtn": "Sagen Sie Hallo :)",
+    "successMessage": "Ihre Nachricht wurde erfolgreich gesendet. Vielen Dank!"
+  },
+  "main_content": {
+    "skill": {
+      "headline": "Fähigkeiten",
+      "interests": "Ich habe ein besonderes Interesse daran, zu lernen",
+      "text": "Auf meinem Weg habe ich an vielfältigen Projekten gearbeitet und dabei eine Reihe von Frontend-Technologien und Konzepten eingesetzt. Ich bin offen dafür, neue Technologien und Methoden zu erlernen, um meine Fähigkeiten kontinuierlich zu verbessern und in der sich ständig wandelnden Welt der Webentwicklung stets einen Schritt voraus zu sein.",
+      "text_contact_me": "Zögern Sie nicht, mich zu kontaktieren. Ich freue mich darauf, meine bisherigen Kenntnisse weiter zu vertiefen und meine Fähigkeiten im Bereich der Backend-Entwicklung auszubauen.",
+      "text_need_skill": "Sie benötigen",
+      "text_need_skill_color": "eine andere Fähigkeit?",
+      "title": "Technologien",
+      "link": "Schreiben Sie mir"
+    },
+    "projects": {
+      "headline": "Projekte",
+      "text": "Hier sind einige der Projekte, an denen ich gearbeitet habe. Klicken Sie auf die Projekte, um Details anzuzeigen.",
+      "text_contact_me": "Wenn Sie Fragen haben oder ein Projekt besprechen möchten, können Sie mich gerne kontaktieren.",
+      "title": "Meine Projekte",
+      "project_dialog": {
+        "question": "Worum geht es in diesem Projekt?",
+        "description_join": "Task-Manager inspiriert vom Kanban-System. Erstellen und organisieren Sie Aufgaben per Drag & Drop, weisen Sie Benutzer und Kategorien zu.",
+        "description_kosp": "Jump, Run and Throw Spiel basierend auf objektorientiertem Ansatz. Hilf dem kleinen Ritter (von Shadow Peaks), Münzen und Feuer-Mana-Flaschen zu finden, um gegen den Dunklen Ritter zu kämpfen.",
+        "description_da_bubble": "Diese App ist ein Slack Clone. Sie revolutioniert die Teamkommunikation und -zusammenarbeit mit ihrer intuitiven Benutzeroberfläche, Echtzeit-Messaging und robuster Kanalorganisation.",
+        "next_project": "Nächstes Projekt"
+      }
+    },
+    "feedback": {
+      "title": "Was andere sagen"
+    }
+  },
+  
+	"privacy_policy": {
+		"collective": {
+			"headline": "Erfassung und Verwendung Ihrer persönlichen Daten",
+			"types": {
+				"headline": "Arten von gesammelten Daten",
+				"personal_data": {
+					"headline": "Persönliche Daten",
+					"paragraph": {
+						"email": "E-Mail Adresse",
+						"name": "Vorname und Nachname",
+						"text": "Während der Nutzung unseres Dienstes bitten wir Sie möglicherweise, uns bestimmte personenbezogene Daten mitzuteilen, die dazu verwendet werden können, Sie zu kontaktieren oder zu identifizieren. Persönlich identifizierbare Informationen können unter anderem sein:",
+						"using": "Verwendungsdaten"
+					}
+				},
+				"using": {
+					"paragraph": {
+						"text_1": "Nutzungsdaten werden bei der Nutzung des Dienstes automatisch erfasst.",
+						"text_2": "Zu den Nutzungsdaten können Informationen wie die Internetprotokolladresse Ihres Geräts (z. B. IP-Adresse), der Browsertyp, die Browserversion, die von Ihnen besuchten Seiten unseres Dienstes, die Uhrzeit und das Datum Ihres Besuchs, die auf diesen Seiten verbrachte Zeit, eindeutige Gerätekennungen und andere Diagnosedaten gehören.",
+						"text_3": "Wenn Sie mit oder über ein mobiles Gerät auf den Dienst zugreifen, können wir bestimmte Informationen automatisch erfassen, einschließlich, aber nicht beschränkt auf die Art des von Ihnen verwendeten mobilen Geräts, die eindeutige ID Ihres mobilen Geräts, die IP-Adresse Ihres mobilen Geräts, Ihr mobiles Betriebssystem, die Art des von Ihnen verwendeten mobilen Internetbrowsers, eindeutige Gerätekennungen und andere Diagnosedaten.",
+						"text_4": "Wir können auch Informationen erfassen, die Ihr Browser sendet, wenn Sie unseren Dienst besuchen oder wenn Sie über ein mobiles Gerät auf den Dienst zugreifen."
+					}
+				},
+				"using_data": {
+					"headline": "Verwendungsdaten"
+				}
+			}
+		},
+		"interpretation_definition": {
+			"definition": {
+				"headline": "Definitionen",
+				"list": {
+					"account": "Konto",
+					"affiliate": "Tochtergesellschaft",
+					"company": "Unternehmen",
+					"cookies": "Cookies",
+					"country": "Land",
+					"description": {
+						"account": "bedeutet ein einzigartiges Konto, das für Sie erstellt wurde, um auf unseren Service oder Teile davon zuzugreifen.",
+						"affiliate": "bezeichnet ein Unternehmen, das eine Partei beherrscht, von ihr beherrscht wird oder mit ihr unter gemeinsamer Beherrschung steht, wobei \"Beherrschung\" den Besitz von 50 % oder mehr der Aktien, Anteile oder anderer Wertpapiere bedeutet, die zur Wahl von Direktoren oder anderen leitenden Angestellten berechtigt sind.",
+						"company": "(in diesem Vertrag entweder als \"das Unternehmen\", \"wir\", \"uns\" oder \"unser\" bezeichnet) bezieht sich auf Philipp Lötzsch.",
+						"cookies": "sind kleine Dateien, die von einer Website auf Ihrem Computer, Ihrem Mobilgerät oder einem anderen Gerät gespeichert werden und unter anderem die Details Ihres Surfverhaltens auf dieser Website enthalten.",
+						"country": " bezieht sich auf: Sachsen, Deutschland",
+						"device": "ist jedes Gerät, das auf den Dienst zugreifen kann, wie z. B. ein Computer, ein Mobiltelefon oder ein digitales Tablet.",
+						"personal_data": "ist jede Information, die sich auf eine identifizierte oder identifizierbare Person bezieht.",
+						"service": "bezieht sich auf die Website.",
+						"service_provider": " bezeichnet jede natürliche oder juristische Person, die die Daten im Auftrag des Unternehmens verarbeitet. Der Begriff bezieht sich auf Drittunternehmen oder Einzelpersonen, die vom Unternehmen angestellt sind, um den Dienst zu erleichtern, den Dienst im Namen des Unternehmens bereitzustellen, Dienstleistungen im Zusammenhang mit dem Dienst zu erbringen oder das Unternehmen bei der Analyse der Nutzung des Dienstes zu unterstützen.",
+						"using_date": "bezieht sich auf automatisch erfasste Daten, die entweder durch die Nutzung des Dienstes oder durch die Infrastruktur des Dienstes selbst erzeugt werden (z. B. die Dauer eines Seitenbesuchs).",
+						"website": "bezieht sich auf Philipp Lötzsch, erreichbar über",
+						"you": "bezeichnet die Person, die auf den Dienst zugreift oder ihn nutzt, bzw. das Unternehmen oder eine andere juristische Person, in deren Namen eine solche Person auf den Dienst zugreift oder ihn nutzt, je nach Fall."
+					},
+					"device": "Gerät",
+					"personal_data": "Persönliche Daten",
+					"service": "Dienstleistung",
+					"service_provider": "Dienstanbieter",
+					"using_date": "Verwendungsdaten",
+					"website": "Website",
+					"you": "Sie"
+				},
+				"paragraph": "Für die Zwecke dieser Datenschutzrichtlinie:"
+			},
+			"headline": "Auslegung und Definitionen",
+			"interpretation": {
+				"headline": "Auslegung",
+				"paragraph": "Die Wörter, deren Anfangsbuchstaben groß geschrieben sind, haben die unter den nachstehenden Bedingungen definierte Bedeutung. Die folgenden Definitionen haben dieselbe Bedeutung, unabhängig davon, ob sie im Singular oder im Plural stehen."
+			}
+		},
+		"paragraph_1_1": "Diese Datenschutzrichtlinie beschreibt unsere Richtlinien und Verfahren für die Erfassung, Verwendung und Offenlegung Ihrer Daten bei der Nutzung des Dienstes und informiert Sie über Ihre Datenschutzrechte und den gesetzlichen Schutz Ihrer Daten.",
+		"paragraph_1_2": "Wir verwenden Ihre persönlichen Daten zur Bereitstellung und Verbesserung des Dienstes. Durch die Nutzung des Dienstes erklären Sie sich mit der Erfassung und Nutzung von Informationen in Übereinstimmung mit dieser Datenschutzrichtlinie einverstanden. Diese Datenschutzrichtlinie wurde mit der Hilfe der",
+		"personal_data": {
+			"headline": "Verwendung Ihrer persönlichen Daten",
+			"paragraph_text_1": "Das Unternehmen kann personenbezogene Daten für die folgenden Zwecke verwenden:",
+			"paragraph_text_2": ", einschließlich der Überwachung der Nutzung unseres Dienstes.",
+			"paragraph_text_2_strong": "Zur Bereitstellung und Aufrechterhaltung unseres Dienstes",
+			"paragraph_text_3": "um Ihre Registrierung als Nutzer des Dienstes zu verwalten. Die von Ihnen bereitgestellten personenbezogenen Daten können Ihnen Zugang zu verschiedenen Funktionen des Dienstes geben, die Ihnen als registriertem Nutzer zur Verfügung stehen.",
+			"paragraph_text_3_strong": "Um Ihr Konto zu verwalten:",
+			"paragraph_text_4": "die Entwicklung, Einhaltung und Durchführung des Kaufvertrags für die Produkte, Artikel oder Dienstleistungen, die Sie gekauft haben, oder eines anderen Vertrags mit uns über den Dienst.",
+			"paragraph_text_4_strong": "Für die Erfüllung eines Vertrages:",
+			"paragraph_text_5": "Sie per E-Mail, Telefonanrufe, SMS oder andere gleichwertige Formen der elektronischen Kommunikation zu kontaktieren, wie z. B. Push-Benachrichtigungen einer mobilen Anwendung in Bezug auf Aktualisierungen oder informative Mitteilungen im Zusammenhang mit den Funktionen, Produkten oder vertraglich vereinbarten Diensten, einschließlich der Sicherheitsaktualisierungen, wenn dies für ihre Durchführung notwendig oder angemessen ist.",
+			"paragraph_text_5_strong": "Sie zu kontaktieren:",
+			"paragraph_text_6": " mit Nachrichten, Sonderangeboten und allgemeinen Informationen über andere Waren, Dienstleistungen und Veranstaltungen, die wir anbieten und die denen ähnlich sind, die Sie bereits gekauft oder angefragt haben, es sei denn, Sie haben sich gegen den Erhalt solcher Informationen entschieden.",
+			"paragraph_text_6_strong": "Für Sie",
+			"paragraph_text_7": "Um Ihre Anfragen an uns zu bearbeiten und zu verwalten.",
+			"paragraph_text_7_strong": "Um Ihre Anfragen zu verwalten:",
+			"paragraph_text_8": "Wir können Ihre Informationen verwenden, um eine Fusion, Veräußerung, Umstrukturierung, Reorganisation, Auflösung oder einen anderen Verkauf oder eine Übertragung einiger oder aller unserer Vermögenswerte zu bewerten oder durchzuführen, sei es als laufendes Unternehmen oder als Teil eines Konkurses, einer Liquidation oder eines ähnlichen Verfahrens, bei dem persönliche Daten, die wir über unsere Dienstnutzer besitzen, zu den übertragenen Vermögenswerten gehören.",
+			"paragraph_text_8_strong": "Für Unternehmensübertragungen:",
+			"paragraph_text_9": ": Wir können Ihre Daten für andere Zwecke verwenden, wie z.B. zur Datenanalyse, zur Ermittlung von Nutzungstrends, zur Bestimmung der Wirksamkeit unserer Werbekampagnen und zur Bewertung und Verbesserung unseres Dienstes, unserer Produkte, Dienstleistungen, unseres Marketings und Ihrer Erfahrungen.",
+			"paragraph_text_9_strong": "Für andere Zwecke",
+			"share": {
+				"paragraph": {
+					"headline": "Wir können Ihre personenbezogenen Daten in den folgenden Situationen weitergeben:"
+				},
+				"paragraph_text_1": "Wir können Ihre persönlichen Daten an Dienstanbieter weitergeben, um die Nutzung unseres Dienstes zu überwachen und zu analysieren und um Sie zu kontaktieren.",
+				"paragraph_text_1_strong": "Mit Dienstleistern:",
+				"paragraph_text_2": "Wir können Ihre persönlichen Daten in Verbindung mit oder während der Verhandlungen über eine Fusion, den Verkauf von Unternehmensvermögen, eine Finanzierung oder die Übernahme unseres gesamten oder eines Teils unseres Unternehmens durch ein anderes Unternehmen weitergeben oder übertragen.",
+				"paragraph_text_2_strong": "Für Unternehmensübertragungen:",
+				"paragraph_text_3": "Wir können Ihre Daten an unsere Tochtergesellschaften weitergeben; in diesem Fall verpflichten wir diese Tochtergesellschaften, diese Datenschutzrichtlinie einzuhalten. Zu den verbundenen Unternehmen gehören unsere Muttergesellschaft und alle anderen Tochtergesellschaften, Joint-Venture-Partner oder andere Unternehmen, die wir kontrollieren oder die unter gemeinsamer Kontrolle mit uns stehen.",
+				"paragraph_text_3_strong": "Mit verbundenen Unternehmen:",
+				"paragraph_text_4": "Wir können Ihre Informationen an unsere Geschäftspartner weitergeben, um Ihnen bestimmte Produkte, Dienstleistungen oder Werbeaktionen anzubieten.",
+				"paragraph_text_4_strong": "Mit Geschäftspartnern:",
+				"paragraph_text_5": "Wenn Sie persönliche Informationen weitergeben oder auf andere Weise in den öffentlichen Bereichen mit anderen Nutzern interagieren, können diese Informationen von allen Nutzern eingesehen und öffentlich nach außen verbreitet werden.",
+				"paragraph_text_5_strong": "Mit anderen Benutzern:",
+				"paragraph_text_6": ": Wir können Ihre persönlichen Daten mit Ihrer Zustimmung für jeden anderen Zweck weitergeben.",
+				"paragraph_text_6_strong": "Mit Ihrer Zustimmung"
+			}
+		},
+		"personal_delete": {
+			"headline": "Löschen Sie Ihre persönlichen Daten",
+			"paragraph": {
+				"text_1": "Sie haben das Recht, die persönlichen Daten, die wir über Sie gesammelt haben, zu löschen oder von uns Unterstützung bei der Löschung zu verlangen.",
+				"text_2": "Unser Service kann Ihnen die Möglichkeit geben, bestimmte Informationen über Sie innerhalb des Service zu löschen.",
+				"text_3": "Sie können Ihre Daten jederzeit aktualisieren, ändern oder löschen, indem Sie sich bei Ihrem Konto anmelden, falls Sie eines haben, und den Abschnitt mit den Kontoeinstellungen besuchen, in dem Sie Ihre persönlichen Daten verwalten können. Sie können sich auch an uns wenden, um Zugang zu den persönlichen Daten zu erhalten, sie zu korrigieren oder zu löschen, die Sie uns zur Verfügung gestellt haben.",
+				"text_4": "Bitte beachten Sie jedoch, dass wir bestimmte Informationen aufbewahren müssen, wenn wir dazu gesetzlich verpflichtet sind oder eine gesetzliche Grundlage dafür haben."
+			},
+			"paragraph_text_1": "",
+			"paragraph_text_2": "",
+			"paragraph_text_3": "",
+			"paragraph_text_4": ""
+		},
+		"personal_disclosure": {
+			"headline": "Offenlegung Ihrer persönlichen Daten",
+			"law_enforcement": {
+				"headline": "Strafverfolgung",
+				"paragraph_text": "Unter bestimmten Umständen kann das Unternehmen verpflichtet sein, Ihre persönlichen Daten offen zu legen, wenn dies gesetzlich vorgeschrieben ist oder als Reaktion auf berechtigte Anfragen von Behörden (z. B. einem Gericht oder einer Regierungsbehörde)."
+			},
+			"other_legal": {
+				"headline": "Sonstige rechtliche Anforderungen",
+				"list_text_1": "Einer gesetzlichen Verpflichtung nachkommen",
+				"list_text_2": "Schutz und Verteidigung der Rechte und des Eigentums des Unternehmens",
+				"list_text_3": "Verhinderung oder Untersuchung von möglichem Fehlverhalten im Zusammenhang mit dem Dienst",
+				"list_text_4": "Die persönliche Sicherheit der Nutzer des Dienstes oder der Öffentlichkeit zu schützen",
+				"list_text_5": "Schutz vor rechtlicher Haftung",
+				"paragraph_text": "Das Unternehmen kann Ihre persönlichen Daten in gutem Glauben offenlegen, dass eine solche Maßnahme notwendig ist, um:"
+			},
+			"transactions": {
+				"headline": "Geschäftsvorfälle",
+				"paragraph_text": "Wenn das Unternehmen an einer Fusion, einer Übernahme oder einem Verkauf von Vermögenswerten beteiligt ist, können Ihre persönlichen Daten übertragen werden. Wir werden Sie darüber informieren, bevor Ihre persönlichen Daten übertragen werden und einer anderen Datenschutzrichtlinie unterliegen."
+			}
+		},
+		"personal_retention": {
+			"headline": "Aufbewahrung Ihrer persönlichen Daten",
+			"paragraph_text_1": "Das Unternehmen wird Ihre persönlichen Daten nur so lange aufbewahren, wie es für die in dieser Datenschutzrichtlinie genannten Zwecke erforderlich ist. Wir werden Ihre personenbezogenen Daten in dem Umfang aufbewahren und verwenden, der erforderlich ist, um unseren rechtlichen Verpflichtungen nachzukommen (z. B. wenn wir Ihre Daten aufbewahren müssen, um geltende Gesetze einzuhalten), Streitigkeiten beizulegen und unsere rechtlichen Vereinbarungen und Richtlinien durchzusetzen.",
+			"paragraph_text_2": "Das Unternehmen speichert die Nutzungsdaten auch für interne Analysezwecke. Nutzungsdaten werden im Allgemeinen für einen kürzeren Zeitraum aufbewahrt, es sei denn, diese Daten werden verwendet, um die Sicherheit oder die Funktionalität unseres Dienstes zu verbessern, oder wir sind gesetzlich verpflichtet, diese Daten für längere Zeiträume aufzubewahren."
+		},
+		"personal_security": {
+			"changes": {
+				"headline": "Änderungen an dieser Datenschutzrichtlinie",
+				"paragraph_text_1": "Wir können unsere Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Wir werden Sie über alle Änderungen informieren, indem wir die neue Datenschutzrichtlinie auf dieser Seite veröffentlichen.",
+				"paragraph_text_2": "Wir werden Sie per E-Mail und/oder durch einen auffälligen Hinweis in unserem Service informieren, bevor die Änderung in Kraft tritt, und das &quot;Datum der letzten Aktualisierung&quot; oben in dieser Datenschutzrichtlinie aktualisieren.",
+				"paragraph_text_3": "Wir empfehlen Ihnen, diese Datenschutzrichtlinie regelmäßig auf Änderungen zu überprüfen. Änderungen an dieser Datenschutzrichtlinie werden wirksam, wenn sie auf dieser Seite veröffentlicht werden."
+			},
+			"children": {
+				"headline": "Datenschutz für Kinder",
+				"paragraph_text_1": "Unser Service richtet sich nicht an Personen unter 13 Jahren. Wir sammeln nicht wissentlich personenbezogene Daten von Personen unter 13 Jahren. Wenn Sie ein Elternteil oder Erziehungsberechtigter sind und wissen, dass Ihr Kind uns personenbezogene Daten zur Verfügung gestellt hat, kontaktieren Sie uns bitte. Wenn wir erfahren, dass wir personenbezogene Daten von Personen unter 13 Jahren ohne Überprüfung der elterlichen Zustimmung erfasst haben, ergreifen wir Maßnahmen, um diese Daten von unseren Servern zu entfernen.",
+				"paragraph_text_2": "Wenn wir uns auf die Zustimmung als Rechtsgrundlage für die Verarbeitung Ihrer Daten stützen müssen und Ihr Land die Zustimmung eines Elternteils erfordert, können wir die Zustimmung Ihres Elternteils verlangen, bevor wir diese Daten sammeln und verwenden."
+			},
+			"contact": {
+				"email": "Per E-Mail:",
+				"headline": "Kontaktieren Sie uns",
+				"paragraph_text_1": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, können Sie sich an uns wenden:"
+			},
+			"headline": "Sicherheit Ihrer persönlichen Daten",
+			"links_other_website": {
+				"headline": "Links zu anderen Websites",
+				"paragraph_text_1": "Unser Service kann Links zu anderen Websites enthalten, die nicht von uns betrieben werden. Wenn Sie auf einen Link einer dritten Partei klicken, werden Sie auf die Seite dieser dritten Partei weitergeleitet. Wir empfehlen Ihnen dringend, die Datenschutzrichtlinien jeder Website, die Sie besuchen, zu lesen.",
+				"paragraph_text_2": "Wir haben keine Kontrolle über und übernehmen keine Verantwortung für den Inhalt, die Datenschutzrichtlinien oder Praktiken von Websites oder Diensten Dritter."
+			},
+			"paragraph_text": "Die Sicherheit Ihrer persönlichen Daten ist uns wichtig, aber denken Sie daran, dass keine Methode der Übertragung über das Internet oder der elektronischen Speicherung 100% sicher ist. Wir bemühen uns, Ihre persönlichen Daten mit kommerziell akzeptablen Mitteln zu schützen, können aber keine absolute Sicherheit garantieren."
+		},
+		"personal_transfer": {
+			"headline": "Übermittlung Ihrer persönlichen Daten",
+			"paragraph_text_1": "Ihre Informationen, einschließlich personenbezogener Daten, werden in den Betriebsbüros des Unternehmens und an anderen Orten verarbeitet, an denen sich die an der Verarbeitung beteiligten Parteien befinden. Das bedeutet, dass diese Daten an Computer außerhalb Ihres Staates, Ihrer Provinz, Ihres Landes oder einer anderen staatlichen Gerichtsbarkeit, in der andere Datenschutzgesetze als in Ihrer Gerichtsbarkeit gelten, übertragen und dort gespeichert werden können.",
+			"paragraph_text_2": "Mit Ihrer Zustimmung zu dieser Datenschutzrichtlinie und der anschließenden Übermittlung dieser Informationen erklären Sie sich mit dieser Übertragung einverstanden.",
+			"paragraph_text_3": "Das Unternehmen wird alle angemessenen Schritte unternehmen, um sicherzustellen, dass Ihre Daten sicher und in Übereinstimmung mit dieser Datenschutzrichtlinie behandelt werden, und es wird keine Übermittlung Ihrer persönlichen Daten an eine Organisation oder ein Land stattfinden, es sei denn, es sind angemessene Kontrollen vorhanden, die die Sicherheit Ihrer Daten und anderer persönlicher Informationen einschließen."
+		},
+		"title": "Datenschutzbestimmungen",
+		"tracking": {
+			"headline": "Tracking-Technologien und Cookies",
+			"list": {
+				"beacons": "Web Beacons.",
+				"cokies": "Cookies oder Browser-Cookies.",
+				"description": {
+					"becons": "Bestimmte Bereiche unseres Dienstes und unserer E-Mails können kleine elektronische Dateien enthalten, die als Web-Beacons (auch als Clear Gifs, Pixel-Tags und Single-Pixel-Gifs bezeichnet) bekannt sind und die es dem Unternehmen beispielsweise ermöglichen, die Benutzer zu zählen, die diese Seiten besucht oder eine E-Mail geöffnet haben, sowie andere damit verbundene Website-Statistiken zu erstellen (z. B. die Aufzeichnung der Beliebtheit eines bestimmten Bereichs und die Überprüfung der System- und Serverintegrität).",
+					"cokies": "Ein Cookie ist eine kleine Datei, die auf Ihrem Gerät abgelegt wird. Sie können Ihren Browser anweisen, alle Cookies abzulehnen oder anzuzeigen, wenn ein Cookie gesendet wird. Wenn Sie jedoch keine Cookies akzeptieren, können Sie möglicherweise einige Teile unseres Dienstes nicht nutzen. Sofern Sie Ihren Browser nicht so eingestellt haben, dass er Cookies ablehnt, kann unser Dienst Cookies verwenden."
+				},
+				"essential_cokies": {
+					"text_1": "Typ: Session-Cookies",
+					"text_2": "Verwaltet von: Uns",
+					"text_3": "Zweck: Diese Cookies sind unerlässlich, um Ihnen die über die Website verfügbaren Dienste zur Verfügung zu stellen und Ihnen die Nutzung einiger ihrer Funktionen zu ermöglichen. Sie helfen bei der Authentifizierung von Benutzern und verhindern die betrügerische Nutzung von Benutzerkonten. Ohne diese Cookies können die von Ihnen angeforderten Dienste nicht bereitgestellt werden, und wir verwenden diese Cookies nur, um Ihnen diese Dienste zur Verfügung zu stellen."
+				},
+				"essential_cookies": {
+					"headline": "Notwendige / essentielle Cookies"
+				},
+				"functionality_cookies": {
+					"headline": "Funktionalität Cookies",
+					"text_1": "Typ: Dauerhafte Cookies",
+					"text_2": "Verwaltet von: Uns",
+					"text_3": "Zweck: Diese Cookies ermöglichen es uns, die von Ihnen bei der Nutzung der Website getroffenen Entscheidungen zu speichern, z. B. Ihre Anmeldedaten oder die von Ihnen bevorzugte Sprache. Der Zweck dieser Cookies ist es, Ihnen eine persönlichere Erfahrung zu bieten und zu vermeiden, dass Sie Ihre Einstellungen jedes Mal neu eingeben müssen, wenn Sie die Website nutzen.",
+					"text_4": "Weitere Informationen über die von uns verwendeten Cookies und Ihre Wahlmöglichkeiten in Bezug auf Cookies finden Sie in unserer Cookie-Richtlinie oder im Abschnitt Cookies unserer Datenschutzrichtlinie."
+				},
+				"policy_cookies": {
+					"headline": "Cookies Politik / Hinweis Akzeptanz Cookies",
+					"text_1": "Typ: Dauerhafte Cookies",
+					"text_2": "Verwaltet von: Us",
+					"text_3": "Zweck: Diese Cookies zeigen an, ob die Nutzer die Verwendung von Cookies auf der Website akzeptiert haben."
+				}
+			},
+			"pragraph": {
+				"text_1": "Wir verwenden Cookies und ähnliche Tracking-Technologien, um die Aktivitäten auf Unserem Dienst zu verfolgen und bestimmte Informationen zu speichern. Bei den verwendeten Tracking-Technologien handelt es sich um Beacons, Tags und Skripte zur Erfassung und Verfolgung von Informationen sowie zur Verbesserung und Analyse Unseres Dienstes. Zu den von uns verwendeten Technologien können gehören:",
+				"text_2": "Cookies können \"dauerhafte\" oder \"Sitzungs\"-Cookies sein. Dauerhafte Cookies bleiben auf Ihrem Computer oder Mobilgerät, wenn Sie offline gehen, während Sitzungscookies gelöscht werden, sobald Sie Ihren Webbrowser schließen. Erfahren Sie mehr über Cookies in diesem Artikel.",
+				"text_3": "Wir verwenden sowohl Sitzungscookies als auch dauerhafte Cookies für die unten genannten Zwecke:"
+			}
+		},
+		"update": "Zuletzt aktualisiert: Januar 06, 2025"
+	},
+  "legal_notice": {
+		"contact": {
+			"email": "E-Mail-Adresse:",
+			"phone": "Telefon:"
+		},
+		"data_mining": {
+			"text": " Vorbehalt der Nutzung für Text und Data Mining: Der Inhaber dieser Website \n gestattet die Nutzung oder das Herunterladen von Inhalten dieser Website\n durch Dritte für die Entwicklung, das Training oder den Betrieb von\n künstlicher Intelligenz oder anderen maschinellen Lernsystemen (\"Text und\n Data Mining\") ausschließlich mit ausdrücklicher schriftlicher Zustimmung des\nInhabers. Ohne eine solche Zustimmung ist es untersagt, die Inhalte für Text\nund Data Mining zu verwenden. Dies gilt auch, wenn auf der Website keine  \nMeta-Angaben vorhanden sind, die entsprechende Verfahren aussperren, und\n selbst dann, wenn Bots, die den Zweck haben, die Website zu Zwecken des Text\n und Data Mining auszulesen, nicht ausgesperrt werden."
+		},
+		"genaerator_text": "Erstellt mit kostenlosem Datenschutz-Generator.de von Dr. Thomas\n      Schwenke",
+		"headline": {
+			"contact": "Kontaktmöglichkeiten",
+			"data_mining": "Vorbehalt der Nutzung für Text und Data Mining",
+			"law": "Streitschlichtung und Verbraucherstreitbeilegung",
+			"name": "Diensteanbieter",
+			"picture": "Bildnachweise",
+			"rights": "Haftungs- und Schutzrechtshinweise",
+			"social_media": "Social Media und andere Onlinepräsenzen"
+		},
+		"law": {
+			"text": " Wir sind nicht bereit und nicht verpflichtet an einem Streitbeilegungsverfahren vor einer Verbraucherstreitschlichtungsstelle  teilzunehmen."
+		},
+		"picture": {
+			"text_1": "Bildquellen und Urheberrechtshinweise:",
+			"text_2": "Profilbild / Quelle und Urheberrecht:"
+		},
+		"rights": {
+			"text_1": " Urheberrechte und Markenrechte: Alle auf dieser Website dargestellten\n    Inhalte, wie Texte, Fotografien, Grafiken, Marken und Warenzeichen sind\n    durch die jeweiligen Schutzrechte (Urheberrechte, Markenrechte) geschützt.\n    Die Verwendung, Vervielfältigung usw. unterliegen unseren Rechten oder den\n    Rechten der jeweiligen Urheber bzw. Rechteinhaber.",
+			"text_2": "  Hinweise auf Rechtsverstöße: Sollten Sie innerhalb unseres Internetauftritts\n    Rechtsverstöße bemerken, bitten wir Sie uns auf diese hinzuweisen. Wir\n    werden rechtswidrige Inhalte und Links nach Kenntnisnahme unverzüglich\n    entfernen."
+		},
+		"social_media": {
+			"text": "Dieses Impressum gilt auch für die folgenden Social-Media-Präsenzen und Onlineprofile:"
+		},
+		"title": "Impressum"
+	}
+}

@@ -1,0 +1,44 @@
+<section appScrollAnimation="fade-in" class="fade-in">
+    <h4>{{ 'main_content.projects.title' | translate }}</h4>
+    <h3>{{ 'main_content.projects.headline' | translate }}</h3>
+    <p> {{ 'main_content.projects.text' | translate }}</p>
+  
+    <div class="project-wrapper">
+        <div class="projects-info">
+    <div class="project-description" *ngFor="let project of projects; let index = index">
+      <button
+        (mouseenter)="hoverButton(index); hoverIn(project.image)"
+        (mouseleave)="noHover(); hoverOut()"
+        (click)="openDialog(index)"
+      >
+        <span>
+          {{ project.title }}
+          <img
+            *ngIf="hoverIndex === index"
+            src="assets/img/portfolio/arrow_out.png"
+            alt=""
+        /></span>
+  
+        <div class="d-flex separator">
+          @for (skill of project.codeLanguage; track skill; let i = $index) {
+          <div>{{ skill }}</div>
+          @if(i <= project.codeLanguage.length - 2){
+          <div class="green-separator"></div>
+          } }
+        </div>
+      </button>
+    </div>
+</div>
+
+<div class="preview-container"  *ngIf="!screen.breakPoint(1060)">
+      <div class="preview">
+        <div *ngIf="hover" class="background-image"> <img class="preview-img" src="assets/img/projects/{{ hover }}" alt="" /></div>
+
+      </div>
+
+    </div>
+    </div>
+
+
+  </section>
+  <app-info class="dialogue"  [currentIndex]="currentIndex" [projects]="projects" *ngIf="overlayInfo" (addDialogClosed)="overlayInfo = $event"></app-info>

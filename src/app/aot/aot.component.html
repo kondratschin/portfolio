@@ -1,0 +1,52 @@
+<section>
+  <div class="aot">
+    <h2>Frontend Developer</h2>
+    <h1>Stefan Kondratschin</h1>
+    <div class="aot-links">
+      <a *ngFor="let link of buttonLinks; let i = index" href="#{{ link.link }}"
+        (mouseenter)="startAnimation(link.content, 200, -150)" (mouseleave)="stopAnimation(link.content)">
+        <span [ngStyle]="{ 'right.px': getMarqueePosition(link.content) }">{{
+          link.content | translate
+          }}</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="ticker-links max-width">
+    <div class="side-elements">
+      <a class="arrow-down" href="#about"><img src="assets/img/arrow_down.svg" alt="" /></a>
+      <div class="line left-line"></div>
+    </div>
+    <div class="side-elements" style="max-width: 30px">
+
+
+@if (!screen.breakPoint(1250)) {
+      <a style="position: relative"  href="mailto:contact@kondratschin.de">
+        <div class="mail-link">contact&#64;kondratschin.de</div>
+      </a> }
+
+      @for (link of sideLinks; track link.id; let i = $index) {
+        <a *ngIf="screen.breakPoint(1250) ? i >= 0 : i >= 1" style="position: relative" href={{link.link}} target={{link.target}}>
+          <div class="social">
+          <img (mouseenter)="hover=link.id" (mouseleave)="hover=''" class="social" src='assets/img/social/{{link.id}}.svg' alt="" />
+          <span *ngIf="hover === link.id">·</span>
+        </div>
+        </a>
+      }
+ 
+      <div class="line white"></div>
+    </div>
+  </div>
+
+
+  <div class="ticker">
+    <ngx-fast-marquee [speed]="50" direction="left" [play]="true" [maskPercentage]="10" [autoFill]="true">
+      @for (text of texts; track text; let i = $index) {
+      <div class="text-element">
+        <span style="color: var(--color-selected);">{{ text | translate}}</span>
+        <span class="green-dot">·</span>
+      </div>
+      }
+    </ngx-fast-marquee>
+  </div>
+</section>

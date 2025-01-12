@@ -1,0 +1,29 @@
+<footer>
+    <div class="owner">
+      <div>
+        <a href="#" (mouseenter)="hoverIn('logo')" (mouseleave)="hoverOut()">
+            <img [src]="hover === 'logo' ? '../../assets/img/logo_hover.svg' : '../../assets/img/logo.svg'" class="logo"
+                alt="Logo">
+        </a>
+        <span>Frontend Developer</span>
+        <span>Göppingen Germany</span>
+      </div>
+      <div *ngIf="screen.displayIs('desktop')" class="copyright">
+        &copy; Stefan Kondratschin 2025
+      </div>
+      <div >
+            @for (link of links; track link.link) {
+
+            <div  class="link" (mouseenter)="hoverIn(link.link)" (mouseleave)="hoverOut()">
+                <a href="{{ link.link }}"  target="{{ link.target }}">
+                    {{ link.name }}
+                </a>
+                <span *ngIf="hover === link.link" style="position: absolute; margin-bottom: 5px; left: -20px;">·</span>
+            </div>
+            }
+      </div>
+    </div>
+    <div *ngIf="screen.displayIs('mobile')" class="copyright">
+      &copy; Stefan Kondratschin 2025
+    </div>
+</footer>

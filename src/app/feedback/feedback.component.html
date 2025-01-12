@@ -1,0 +1,75 @@
+<section appScrollAnimation="fade-in" class="max-width fade-in">
+    <h5>{{ "main_content.feedback.title" | translate }}</h5>
+  
+    <div class="carousel">
+      <div class="d-flex" style="position: relative; justify-content: center;">
+        <div
+          class="previous-comment"
+          [ngClass]="{ 'preview-left': showPrev, 'preview-right': showNext }"
+        >
+          <span class="fs_14">{{ this.previousComment.text | translate }}</span>
+          <div>
+            <div class="line"></div>
+            <span class="fs_13">{{ this.previousComment.name }}</span>
+          </div>
+          <div class="previous-comment scale-left" *ngIf="showPrev">
+            <span class="fs_14">{{ this.nextComment.text | translate }}</span>
+            <div>
+              <div class="line"></div>
+              <span class="fs_13">{{ this.nextComment.name }}</span>
+            </div>
+          </div>
+        </div>
+        <div class="quotes"><img src="assets/img/feedback/quotes.png" alt=""/></div>
+        <div
+          class="main-comment"
+          [ngClass]="{ 'main-left': showPrev, 'main-right': showNext }"
+        >
+          
+          <span class="fs_14">{{ this.mainComment.text | translate }}</span>
+          <div>
+            <div class="line"></div>
+            <span class="fs_13">{{ this.mainComment.name }}</span>
+          </div>
+        </div>
+        <div
+          class="next-comment"
+          [ngClass]="{ 'next-left': showPrev, 'next-right': showNext }"
+        >
+          <span class="fs_14">{{ this.nextComment.text | translate }}</span>
+          <div>
+            <div class="line"></div>
+            <span class="fs_13">{{ this.nextComment.name }}</span>
+          </div>
+          <div class="next-comment scale-right" *ngIf="showNext">
+            <span class="fs_14">{{ this.previousComment.text | translate }}</span>
+            <div>
+              <div class="line"></div>
+              <span class="fs_13">{{ this.previousComment.name }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="comment-navigation">
+      <img
+        style="cursor: pointer"
+        (click)="showPreviousComment()"
+        src="assets/img/feedback/arrow_back.png"
+        alt="arrow left"
+      />
+      <div *ngFor="let feedback of feedbacks; let i = index">
+        @if(i <= feedbacks.length && i < 6){ @if(currentComment === i){
+        <img src="assets/img/feedback/point_green.png" alt="point" />
+        } @else{ <img src="assets/img/feedback/point_white.png" alt="point" />} }
+      </div>
+      <img
+        style="cursor: pointer"
+        (click)="showNextComment()"
+        src="assets/img/feedback/arrow_forward.png"
+        alt="arrow right"
+      />
+    </div>
+  </section>
+  

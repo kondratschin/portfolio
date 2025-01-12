@@ -1,0 +1,141 @@
+@import "./../../styles.scss";
+
+section {
+  @include arrangement($ai: center);
+  gap: 30px;
+  padding: 112px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.skill-grid {
+  @include arrangement($fd: row, $jc: start, $ai: center);
+  top: 26px;
+  min-width: 50%;
+  flex-wrap: wrap;
+  padding-top: 3%;
+  flex: auto;
+}
+
+.skill {
+  position: relative;
+  width: 25%;
+  height: 95px;
+  text-align: center;
+  margin-bottom: 48px;
+
+  @include arrangement($g: 10px, $fd: column, $jc: space-between);
+  > span {
+    display: flex;
+    align-items: start;
+    font-family: "Fira Code";
+  }
+  > img {
+    width: 65px;
+    filter: var(--filter-white);
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.hoverBox {
+  position: absolute;
+  z-index: 99;
+  transform: translateY(-110%);
+  background-color: var(--color-white);
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  span {
+    word-break: keep-all;
+    box-sizing: border-box;
+    color: var(--color-selected);
+  }
+  > div {
+    @include arrangement($g: 10px);
+  }
+}
+
+.hoverImages {
+  height: 32px;
+  width: 32px;
+}
+
+.hoverBox::before {
+  content: "";
+  position: absolute;
+  top: 95%;
+  left: 45%;
+  width: 0;
+  border-top: 10px solid var(--color-white);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.content-container {
+  > a {
+    @include animatedLinks();
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  section {
+    padding: 64px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  section {
+    flex-direction: column;
+    padding: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .popover {
+    left: 20%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  section {
+    margin-bottom: 32px;
+  }
+  .link-contact {
+    width: max-content;
+    padding: 2px 16px;
+    > span {
+      font-size: 14px;
+    }
+  }
+  .skill-grid {
+    align-items: center;
+  }
+  .skill {
+    width: 33%;
+    height: 60px;
+    box-sizing: content-box;
+    > span {
+      font-size: 14px;
+      word-break: keep-all;
+    }
+    > img {
+      width: 40px;
+    }
+  }
+  .popover {
+    min-width: 150px;
+    left: 15%;
+
+    > span {
+      font-size: 14px;
+      text-align: start;
+    }
+  }
+}

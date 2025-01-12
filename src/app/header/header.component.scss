@@ -1,0 +1,113 @@
+@import "../../styles.scss";
+
+.cover {
+  position: fixed;
+  background-color: var(--color-cover);
+  z-index: 98;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+section {
+  @include arrangement($jc: space-between);
+  padding: 24px 42px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1920px;
+  justify-self: center;
+  > span, a {
+    font-family: "Fira Code";
+  }
+}
+
+.nav-links {
+  @include arrangement($fd: column, $g: 4px);
+
+  > span {
+    color: var(--color-selected);
+    position: absolute;
+    top: 34px;
+    font-size: 3rem;
+  }
+}
+
+.nav-bar {
+  @include arrangement($jc: space-between, $g: 40px, $ai: center);
+}
+
+.language {
+  border: 1px solid var(--color-selected);
+  border-radius: 100px;
+  display: flex;
+  &:hover {
+    border-color: var(--color-white);
+  }
+  > button {
+    @include arrangement($ai: center, $jc: center);
+    cursor: pointer;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    border-radius: 100px;
+    color: rgba(61, 207, 183, 0.5);
+  }
+}
+
+.selected {
+  transform: scale(1.06);
+  background-color: var(--color-selected) !important;
+  color: white !important;
+}
+
+.menu-button {
+  cursor: pointer;
+  &:hover,
+  &.open {
+    filter: var(--filter-selected);
+    transform: scale(1.02);
+  }
+}
+
+.menu {
+  @include arrangement($fd: column, $ai: center, $jc: space-between);
+  position: absolute;
+  padding: 32px;
+  right: 40px;
+  top: 74px;
+  width: 192px;
+  height: 192px;
+  background: linear-gradient(
+    to top right,
+    var(--color-background),
+    64%,
+    var(--color-gradient)
+  );
+  border-radius: 20px;
+  border: 1px solid var(--color-selected);
+  animation: slideIn 250ms linear;
+  z-index: 99;
+
+  > div {
+    @include arrangement($fd: column, $jc: space-between, $ai: start);
+    height: 100%;
+  > div {
+    > span {
+      right: 20px;
+      top: auto;
+      margin-bottom: 8px;
+    }
+  }
+  }
+}
+
+@keyframes slideIn {
+  from {
+    right: -200px;
+  }
+  to {
+    right: 40px;
+  }
+}
+

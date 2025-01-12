@@ -1,0 +1,55 @@
+<section (click)="this.addDialogClosed.emit(false)" class="max-width">
+    <article (click)="$event.stopPropagation()">
+      <div class="project-content">
+        <h6>0{{ currentIndex + 1 }}</h6>
+        <span class="title">{{ projects[currentIndex].title }}</span>
+        <span class="headline">{{ 'main_content.projects.project_dialog.question' |translate }}</span>
+        <span class="description">{{ projects[currentIndex].description | translate}}</span>
+        <div class="used-skills">
+          <div class="used-skills_element" *ngFor="let language of projects[currentIndex].codeLanguage">
+            <img
+              src="assets/img/projects/{{ language | lowercase }}_green.png"
+              alt="languange"
+            />
+            <span>{{ language }}</span>
+          </div>
+        </div>
+  
+        <div class="project-links">
+          @if(projects[currentIndex].links[0]=== undefined){
+            <button class="project-links_link"
+            >Comming soon
+            <img src="assets/img/projects/arrow_out_green.png" alt=""
+          /></button>
+          }
+          @else{<a class="project-links_link" href="{{ projects[currentIndex].links[0] }}" target="_blank"
+            >Github
+            <img src="assets/img/projects/arrow_out_green.png" alt=""
+          /></a>}
+          @if(projects[currentIndex].links[1]=== undefined){
+            <button class="project-links_link"
+            >Comming soon
+            <img src="assets/img/projects/arrow_out_green.png" alt=""
+          /></button>
+          }
+          @else{<a class="project-links_link" href="{{ projects[currentIndex].links[1] }}" target="_blank"
+            >Live Test
+            <img src="assets/img/projects/arrow_out_green.png" alt=""
+          /></a>}
+        </div>
+      </div>
+      <div class="project-image">
+        <button (click)="this.addDialogClosed.emit(false)">
+          <img src="assets/img/projects/close.png" alt="" />
+        </button>
+        <div>
+         <img class="project-image_picture" src="assets/img/projects/{{(projects[currentIndex].image)}}" alt="" />
+        </div>
+        <button class="next-project" (click)="nextProject()">
+          {{ 'main_content.projects.project_dialog.next_project' |translate }}
+          <img src="assets/img/projects/arrow_fwd_green.png" alt="" />
+        </button>
+      </div>
+    </article>
+  </section>
+  

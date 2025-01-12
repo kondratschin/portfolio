@@ -1,0 +1,48 @@
+<section>
+    <div appScrollAnimation="slide-in-left" class="content-about slide-in-left">
+        <div>
+            <h4>{{ 'main_content.skill.title' | translate }}</h4>
+            <div class="content-container">
+                <h3>{{ 'main_content.skill.headline' | translate }}</h3>
+                <span>{{ 'main_content.skill.text' | translate }}</span>
+                <div style="font-size: 24px">
+                    <b>
+                        {{ 'main_content.skill.text_need_skill' | translate }}
+                        <span style="color: var(--color-selected)">
+                            {{ 'main_content.skill.text_need_skill_color' | translate }}
+                        </span>
+                    </b>
+                </div>
+                <span>{{ 'main_content.skill.text_contact_me' | translate }}</span>
+                <a class="link-contact" href="#contact" (mouseenter)="startAnimation(linkContent, 200, -150)"
+                    (mouseleave)="stopAnimation(linkContent)">
+                    <span [ngStyle]="{ 'right.px': getMarqueePosition(linkContent) }">
+                        {{ linkContent | translate }}
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div appScrollAnimation="slide-in-right" class=" slide-in-right">
+        <div class="skill-grid">
+        <div class="skill" *ngFor="let skill of skills2; let i = index">
+            <img (mouseenter)="hoverIn(skill.name)" (mouseleave)="hover = ''"
+                src="assets/img/skillset/{{ skill.img }}" alt="{{ skill.name }}" />
+            <span>{{ skill.name }}</span>
+
+            <div class="hoverBox" *ngIf="skill.interests && hover === skill.name">
+                <!-- <span>{{ 'skill.interests' | translate }}</span> -->
+                <div>
+                    <div *ngFor="let interest of skill.interests">
+                        <div>
+                            <img class="hoverImages" src="assets/img/skillset/{{ interest.img }}" alt="{{ interest.name }}" />
+                        </div>
+                        <span>{{ interest.name }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+</section>

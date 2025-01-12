@@ -1,0 +1,49 @@
+<div [ngClass]="{'cover': menu.isOpen}" (click)="menu.isOpen= false"></div>
+
+<section>
+    @if(screen.displayIs('desktop')) {
+    <nav class="nav-bar">
+        <div class="language">
+            <button [ngClass]="{'selected': language.EN}" (click)="language.translate('en')">EN</button>
+            <button [ngClass]="{'selected': language.DE}" (click)="language.translate('de')">DE</button>
+        </div>
+        @for (navlink of navLinks; track navlink.id) {
+        <div class="nav-links" (mouseenter)="hoverIn(navlink.id)" (mouseleave)="hoverOut()">
+            <a href="#{{ navlink.id }}">
+                {{ navlink.id | translate }}
+            </a>
+            <span [ngClass]="{'d-none': hover !== navlink.id}">·</span>
+        </div>
+        }
+    </nav>
+    <a href="#" (mouseenter)="hoverIn('logo')" (mouseleave)="hoverOut()">
+        <img [src]="hover === 'logo' ? '../../assets/img/logo_hover.svg' : '../../assets/img/logo.svg'" class="logo"
+            alt="Logo">
+    </a>
+    } @else {
+    <a href="#" (mouseenter)="hoverIn('logo')" (mouseleave)="hoverOut()">
+        <img [src]="hover === 'logo' ? '../../assets/img/logo_hover.svg' : '../../assets/img/logo.svg'" class="logo"
+            alt="Logo">
+    </a>
+
+    <img class="menu-button" [ngClass]="{'open': menu.isOpen}" src="../../assets/img/menu_button.svg" alt="Menu Button"
+        (click)="menu.toggle()">
+
+    <nav [ngClass]="{'menu' : menu.isOpen}" class="d-none">
+        <div>
+            @for (navlink of navLinks; track navlink.id) {
+            <div class="nav-links" (mouseenter)="hoverIn(navlink.id)" (mouseleave)="hoverOut()">
+                <a (click)="menu.toggle()" href="#{{ navlink.id }}">
+                    {{ navlink.id | translate }}
+                </a>
+                <span [ngClass]="{'d-none': hover !== navlink.id}">·</span>
+            </div>
+            }
+            <div class="language">
+                <button [ngClass]="{'selected': language.EN}" (click)="language.translate('en')">EN</button>
+                <button [ngClass]="{'selected': language.DE}" (click)="language.translate('de')">DE</button>
+            </div>
+        </div>
+    </nav>
+    }
+</section>

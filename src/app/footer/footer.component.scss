@@ -1,0 +1,63 @@
+@import "../../styles.scss";
+
+footer {
+  @include arrangement($fd: column, $jc: space-between, $ai: center);
+  justify-self: center;
+  padding: 112px 112px 24px 112px;
+  position: relative;
+  min-height: 150px;
+  max-width: 1920px;
+  width: 100%;
+}
+
+.logo {
+    padding-bottom: 16px;
+}
+
+a:hover {
+  color: var(--color-selected);
+}
+
+.owner {
+  @include arrangement($jc: space-between);
+  width: 100%;
+  height: 100%;
+  > div {
+    @include arrangement($fd: column, $ai: start);
+    > span {
+      font-family: "Fira Code";
+    }
+  }
+}
+
+.copyright {
+  color: var(--color-selected);
+  font-family: "Fira Code";
+}
+
+.link {
+  @include arrangement($ai: center);
+  position: relative;
+  > span {
+    color: var(--color-selected);
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  footer {
+    padding: 64px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    padding: 16px 16px 24px 16px;
+    gap: 24px;
+  }
+  .owner {
+    > div {
+      gap: 8px;
+    }
+  }
+}

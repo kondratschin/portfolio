@@ -1,0 +1,84 @@
+$breakpoints: (
+  "xs": 0,
+  "sm": 576px,
+  "md": 768px,
+  "lg": 992px,
+  "xl": 1200px,
+  "xxl": 1400px,
+  "xxxl": 1920px
+);
+
+$padding-values: (
+  "xs": 64px 16px,
+  "sm": 64px 32px,
+  "md": 64px,
+  "xxl": 64px 96px,
+  "xxxl": 64px 0,
+);
+
+@mixin arrangement($jc: center, $ai: center, $fd: unset, $g: 0px) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+    gap: $g;
+    flex-direction: $fd;
+  }
+  
+  @mixin animatedLinks() {
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid var(--color-white);
+    border-radius: 100px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    &:hover {
+      border-color: var(--color-selected);
+      > span {
+        color: var(--color-selected);
+        cursor: pointer;
+        position: relative;
+      }
+    }
+  }
+
+  @mixin transition-all {
+    transition: all 125ms ease;
+  }
+
+
+  @mixin respond-to($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+      @if $breakpoint == "xs" {
+        @media (max-width: map-get($breakpoints, "sm")) {
+          @content;
+        }
+      } @else {
+        @media (min-width: map-get($breakpoints, $breakpoint)) {
+          @content;
+        }
+      }
+    } @else {
+      @warn "Keine gültigen Breakpoints für `#{$breakpoint}` gefunden.";
+    }
+  }
+  
+  @mixin respond-to-landscape {
+    @media screen and (orientation: landscape) and (pointer: coarse) {
+      @content;
+    }
+  }
+
+  @mixin max-width {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @mixin scroll-text-animation(
+  $duration: 2s,
+  $iteration: infinite,
+  $timing: linear
+) {
+  animation: scroll-text $duration $iteration $timing;
+}

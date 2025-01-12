@@ -1,0 +1,326 @@
+{
+  "about_title": "Who I Am",
+  "about_header": "About me",
+  "about_text": "I'm a frontend developer with a diverse background that includes product management for complex technical products and experience in sales and marketing. This allows me to approach projects with a holistic perspective and a strong understanding of user needs. I'm flexible regarding work environments and can work on-site in the Stuttgart area, remotely, or in a hybrid model. I'm passionate about creating intuitive and engaging digital experiences and am always eager to learn new technologies.",
+  "location": "Flexible regarding work environments: I can work on-site in the Stuttgart area, as well as remotely or in a hybrid model.",
+  "cognition": "Motivated by the limitless possibilities of IT, I am passionate about creating visually appealing and intuitive websites and applications. I am always eager to learn new technologies and improve my skills.",
+  "new_releases": "I enjoy tackling complex challenges and finding elegant solutions through programming. I can help you optimize your processes, improve efficiency, and ultimately achieve your goals by developing user-friendly software tailored to your specific needs.",
+  "check_my_work": "Check my work",
+  "contact_link": "Contact me",
+  "ticker_text_1": "Ready for new challenges",
+  "ticker_text_2": "Based in Göppingen, Germany",
+  "ticker_text_3": "Frontend Developer",
+  "ticker_text_4": "Available for remote work",
+  "about": "About me",
+  "skills": "Skills",
+  "projects": "Projects",
+  "contact.subtitle": "Contact me",
+  "contact.title": "Get in touch",
+  "contact.question1": "Got a problem to solve?",
+  "contact.text": "Contact me through this form, I am interested in hearing from you, knowing your ideas and contributing to your projects with my work.",
+  "contact.question2": "Need a Frontend developer?",
+  "contact.cta": "Let's talk",
+  "contactForm": {
+    "nameLabel": "What's your name?",
+    "namePlaceholder": "Your name goes here",
+    "nameError": "Oops! it seems your name is missing",
+    "emailLabel": "What's your email?",
+    "emailPlaceholder": "youremail@email.com",
+    "emailError": "Hoppla! your email is required",
+    "emailInvalid": "Please enter a valid email format.",
+    "messageLabel": "How can I help you?",
+    "messagePlaceholder": "Enter a message...",
+    "messageError": "What do you need to develop?",
+    "privacyPolicy1": "I've read the",
+    "privacyPolicy2": "privacy policy",
+    "privacyPolicy3": "and agree to the processing of my data as outlined.",
+    "privacyPolicyError": "Please accept the privacy policy.",
+    "submitBtn": "Say hello :)",
+    "successMessage": "Your message has been successfully sent. Thank you!"
+  },
+  "main_content": {
+    "skill": {
+      "headline": "Skill Set",
+      "interests": "I have a special interest in learning",
+      "text": "My journey has involved working on various projects, employing a range of frontend technologies and concepts. I am open to embracing new technologies and methodologies to continously enhance my skills and stay ahead in the ever-evolving landscape of web development.",
+      "text_contact_me": " Feel free to contact me. I'm looking forward to expanding on my previous knowledge.",
+      "text_need_skill": "You need",
+      "text_need_skill_color": "another skill?",
+      "title": "Technologies",
+      "link": "Let's talk"
+    },
+    "projects": {
+      "headline": "Projects",
+      "text": "Here are some of the projects I have worked on. Click on the projects to view the details.",
+      "text_contact_me": "If you have any questions or would like to discuss a project, feel free to contact me.",
+      "title": "My Projects",
+      "project_dialog": {
+        "question": "What is this project about?",
+        "description_join": "Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
+        "description_kosp": "Jump, run and throw game based on object-oriented approach. Help thes small Knight (of Shadow Peaks) to find coins and fire-mana bottles to fight against the Dark Knight.",
+        "description_da_bubble": "This App is a Slack Clone App. It revolutionizes team communication and collaboration with its intuitive interface, real-time messaging, and robust channel organization.",
+        "next_project": "Next Project"
+      }
+    },
+    "feedback": {
+      "title": "What People Say"
+    }
+  },
+  "privacy_policy": {
+    "collective": {
+      "headline": "Collecting and Using Your Personal Data",
+      "types": {
+        "headline": "Types of Data Collected",
+        "personal_data": {
+          "headline": "Personal Data",
+          "paragraph": {
+            "email": "Email address",
+            "name": "First name and last name",
+            "text": "While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:",
+            "using": "Usage Data"
+          }
+        },
+        "using": {
+          "paragraph": {
+            "text_1": "Usage Data is collected automatically when using the Service.",
+            "text_2": "Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.",
+            "text_3": "When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.",
+            "text_4": "We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device."
+          }
+        },
+        "using_data": {
+          "headline": "Usage Data"
+        }
+      }
+    },
+    "interpretation_definition": {
+      "definition": {
+        "headline": "Definitions",
+        "list": {
+          "account": "Account",
+          "affiliate": "Affiliate",
+          "company": "Company",
+          "cookies": "Cookies",
+          "country": "Country",
+          "description": {
+            "account": "means a unique account created for You to access our Service or parts of our Service.",
+            "affiliate": "means an entity that controls, is controlled by or is under common control with a party, where \"control\" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.",
+            "company": "(referred to as either \"the Company\", \"We\" \"Us\" or \"Our\" in this Agreement) refers to Stefan Kondratschin.",
+            "cookies": "are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.",
+            "country": " refers to: Sachsen,  Germany",
+            "device": "means any device that can access the Service such as a computer, a cellphone or a digital tablet.",
+            "personal_data": "is any information that relates to an identified or identifiable individual.",
+            "service": "refers to the Website.",
+            "service_provider": " means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.",
+            "using_date": "refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).",
+            "website": "refers to Stefan Kondratschin, accessible from ",
+            "you": "means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable."
+          },
+          "device": "Device",
+          "personal_data": "Personal Data",
+          "service": "Service",
+          "service_provider": "Service Provider",
+          "using_date": "Usage Data",
+          "website": "Website",
+          "you": "You"
+        },
+        "paragraph": "For the purposes of this Privacy Policy:"
+      },
+      "headline": "Interpretation and Definitions",
+      "interpretation": {
+        "headline": "Interpretation",
+        "paragraph": "The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural."
+      }
+    },
+    "paragraph_1_1": "This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.",
+    "paragraph_1_2": "We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the",
+    "personal_data": {
+      "headline": "Use of Your Personal Data",
+      "paragraph_text_1": "The Company may use Personal Data for the following purposes:",
+      "paragraph_text_2": ", including to monitor the usage of our Service.",
+      "paragraph_text_2_strong": "To provide and maintain our Service",
+      "paragraph_text_3": "to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.",
+      "paragraph_text_3_strong": "To manage Your Account:",
+      "paragraph_text_4": "the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.",
+      "paragraph_text_4_strong": "For the performance of a contract:",
+      "paragraph_text_5": "To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.",
+      "paragraph_text_5_strong": "To contact You:",
+      "paragraph_text_6": " with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information.",
+      "paragraph_text_6_strong": "To provide You",
+      "paragraph_text_7": "To attend and manage Your requests to Us.",
+      "paragraph_text_7_strong": "To manage Your requests:",
+      "paragraph_text_8": "We may use Your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which Personal Data held by Us about our Service users is among the assets transferred.",
+      "paragraph_text_8_strong": "For business transfers:",
+      "paragraph_text_9": ": We may use Your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service, products, services, marketing and your experience.",
+      "paragraph_text_9_strong": "For other purposes",
+      "share": {
+        "paragraph": {
+          "headline": "We may share Your personal information in the following situations:"
+        },
+        "paragraph_text_1": "We may share Your personal information with Service Providers to monitor and analyze the use of our Service,  to contact You.",
+        "paragraph_text_1_strong": "With Service Providers:",
+        "paragraph_text_2": "We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.",
+        "paragraph_text_2_strong": "For business transfers:",
+        "paragraph_text_3": "We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.",
+        "paragraph_text_3_strong": "With Affiliates:",
+        "paragraph_text_4": "We may share Your information with Our business partners to offer You certain products, services or promotions.",
+        "paragraph_text_4_strong": "With business partners:",
+        "paragraph_text_5": "when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside.",
+        "paragraph_text_5_strong": "With other users:",
+        "paragraph_text_6": ": We may disclose Your personal information for any other purpose with Your consent.",
+        "paragraph_text_6_strong": "With Your consent"
+      }
+    },
+    "personal_delete": {
+      "headline": "Delete Your Personal Data",
+      "paragraph": {
+        "text_1": "You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You.",
+        "text_2": "Our Service may give You the ability to delete certain information about You from within the Service.",
+        "text_3": "You may update, amend, or delete Your information at any time by signing in to Your Account, if you have one, and visiting the account settings section that allows you to manage Your personal information. You may also contact Us to request access to, correct, or delete any personal information that You have provided to Us.",
+        "text_4": "Please note, however, that We may need to retain certain information when we have a legal obligation or lawful basis to do so."
+      },
+      "paragraph_text_1": "",
+      "paragraph_text_2": "",
+      "paragraph_text_3": "",
+      "paragraph_text_4": ""
+    },
+    "personal_disclosure": {
+      "headline": "Disclosure of Your Personal Data",
+      "law_enforcement": {
+        "headline": "Law enforcement",
+        "paragraph_text": "Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency)."
+      },
+      "other_legal": {
+        "headline": "Other legal requirements",
+        "list_text_1": "Comply with a legal obligation",
+        "list_text_2": "Protect and defend the rights or property of the Company",
+        "list_text_3": "Prevent or investigate possible wrongdoing in connection with the Service",
+        "list_text_4": "Protect the personal safety of Users of the Service or the public",
+        "list_text_5": "Protect against legal liability",
+        "paragraph_text": "The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:"
+      },
+      "transactions": {
+        "headline": "Business Transactions",
+        "paragraph_text": "If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy."
+      }
+    },
+    "personal_retention": {
+      "headline": "Retention of Your Personal Data",
+      "paragraph_text_1": "The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.",
+      "paragraph_text_2": "The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods."
+    },
+    "personal_security": {
+      "changes": {
+        "headline": "Changes to this Privacy Policy",
+        "paragraph_text_1": "We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.",
+        "paragraph_text_2": "We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the date at the top of this Privacy Policy.",
+        "paragraph_text_3": "You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page."
+      },
+      "children": {
+        "headline": "Children's Privacy",
+        "paragraph_text_1": "Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.",
+        "paragraph_text_2": "If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information."
+      },
+      "contact": {
+        "email": "By email:",
+        "headline": "Contact Us",
+        "paragraph_text_1": "If you have any questions about this Privacy Policy, You can contact us:"
+      },
+      "headline": "Security of Your Personal Data",
+      "links_other_website": {
+        "headline": "Links to Other Websites",
+        "paragraph_text_1": "Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.",
+        "paragraph_text_2": "We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services."
+      },
+      "paragraph_text": "The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security."
+    },
+    "personal_transfer": {
+      "headline": "Transfer of Your Personal Data",
+      "paragraph_text_1": "Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.",
+      "paragraph_text_2": "Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.",
+      "paragraph_text_3": "The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information."
+    },
+    "title": "Privacy Policy",
+    "tracking": {
+      "headline": "Tracking Technologies and Cookies",
+      "list": {
+        "beacons": "Web Beacons.",
+        "cokies": "Cookies or Browser Cookies.",
+        "description": {
+          "becons": "Certain sections of our Service and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).",
+          "cokies": "A cookie is a small file placed on Your Device. You can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You do not accept Cookies, You may not be able to use some parts of our Service. Unless you have adjusted Your browser setting so that it will refuse Cookies, our Service may use Cookies."
+        },
+        "essential_cokies": {
+          "text_1": "Type: Session Cookies",
+          "text_2": "Administered by: Us",
+          "text_3": "Purpose: These Cookies are essential to provide You with services available through the Website and to enable You to use some of its features. They help to authenticate users and prevent fraudulent use of user accounts. Without these Cookies, the services that You have asked for cannot be provided, and We only use these Cookies to provide You with those services."
+        },
+        "essential_cookies": {
+          "headline": "Necessary / Essential Cookies"
+        },
+        "functionality_cookies": {
+          "headline": "Functionality Cookies",
+          "text_1": "Type: Persistent Cookies",
+          "text_2": "Administered by: Us",
+          "text_3": "Purpose: These Cookies allow us to remember choices You make when You use the Website, such as remembering your login details or language preference. The purpose of these Cookies is to provide You with a more personal experience and to avoid You having to re-enter your preferences every time You use the Website.",
+          "text_4": "For more information about the cookies we use and your choices regarding cookies, please visit our Cookies Policy or the Cookies section of our Privacy Policy."
+        },
+        "policy_cookies": {
+          "headline": "Cookies Policy / Notice Acceptance Cookies",
+          "text_1": "Type: Persistent Cookies",
+          "text_2": "Administered by: Us",
+          "text_3": "Purpose: These Cookies identify if users have accepted the use of cookies on the Website."
+        }
+      },
+      "pragraph": {
+        "text_1": "We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service. The technologies We use may include:",
+        "text_2": "Cookies can be \"Persistent\" or \"Session\" Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser. Learn more about cookies on the article.",
+        "text_3": "We use both Session and Persistent Cookies for the purposes set out below:"
+      }
+    },
+    "update": "Last updated: January 6, 2025"
+  },
+  "skill": {
+    "headline": "Skill Set",
+    "interests": "I have a special interest in learning",
+    "text": "My journey has involved working on diverse projects, employing a range  of frontend technologies and concepts. I am open to embracing new  technologies and methodologies to Continously enhance my skills and  stay ahead in the ever-evolving landscape of web development.",
+    "text_contact_me": " Feel free to contact me. I look forward to expanding on my previous knowledge.",
+    "text_need_skill": "You need",
+    "text_need_skill_color": "another skill?",
+    "title": "Technologies"
+  },
+  "legal_notice": {
+    "contact": {
+      "email": "E-mail address:",
+      "phone": "Phone:"
+    },
+    "data_mining": {
+      "text": " Reservation of use for text and data mining: The owner of this website\n authorizes the use or downloading of content from this website\n by third parties for the development, training or operation of artificial\n artificial intelligence or other machine learning systems (\"text and data\n data mining\") only with the express written consent of the owner.\nowner. Without such consent, it is prohibited to use the content for text\nand data mining. This also applies if the website does not contain\nmeta information is available on the website that excludes such procedures, and\n even if bots that have the purpose of reading the website for the purposes of text\n and data mining purposes are not blocked."
+    },
+    "genaerator_text": "Created with free Datenschutz-Generator.de by Dr. Thomas\n      Schwenke",
+    "headline": {
+      "contact": "Contact options",
+      "data_mining": "Reservation of use for text and data mining",
+      "law": "Dispute resolution and consumer dispute resolution",
+      "name": "Service provider",
+      "picture": "Picture credits",
+      "rights": "Liability and intellectual property rights",
+      "social_media": "Social media and other online presences"
+    },
+    "law": {
+      "text": " We are not willing or obliged to participate in dispute resolution proceedings before a consumer dispute resolution body."
+    },
+    "picture": {
+      "text_1": "Image sources and copyright notices:",
+      "text_2": "Profile picture / source and copyright:"
+    },
+    "rights": {
+      "text_1": " Copyrights and trademark rights: All content displayed on this website, such as\n    such as texts, photographs, graphics, brands and trademarks are protected by the\n    protected by the respective property rights (copyrights, trademark rights).\n    The use, reproduction, etc. are subject to our rights or the rights of the\n    rights of the respective authors or rights holders.",
+      "text_2": "  Information on legal violations: Should you notice any legal violations on our website\n    legal violations on our website, please inform us of these. We\n    illegal content and links as soon as we become aware of them.\n    remove them."
+    },
+    "social_media": {
+      "text": "This legal notice also applies to the following social media presences and online profiles:"
+    },
+    "title": "Legal notice"
+  }
+}

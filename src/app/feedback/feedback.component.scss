@@ -1,0 +1,120 @@
+@import "./../../styles.scss";
+
+@mixin comments($pos: relative, $bgc: rgba(61, 207, 183, 0.3)) {
+  position: $pos;
+  height: 210px;
+  flex: 0 0 auto;
+  max-width: 450px;
+  width: 100%;
+  border: 1px solid #3dcfb76c;
+  background-color: $bgc;
+  border-radius: 30px;
+  padding: 40px 24px;
+  box-sizing: border-box;
+}
+
+@mixin commentFooter() {
+  > div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    gap: 15px;
+    > span {
+      min-width: fit-content;
+    }
+  }
+}
+
+section {
+  @include arrangement($fd: column, $ai: center, $g: 40px);
+  padding: 112px;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+}
+
+h5 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Fira Code", Arial, Helvetica, sans-serif;
+  color: #3dcfb6;
+}
+
+.quotes {
+  height: 250px;
+  position: relative;
+  > img {
+    position: absolute;
+    z-index: 200;
+    left: -20px;
+    width: 60px;
+  }
+}
+
+.previous-comment {
+  @include comments($bgc: rgba(61, 207, 183, 0.123));
+  @include arrangement($fd: column, $jc: space-between, $ai: start);
+  @include commentFooter();
+  transform: scale(0.9);
+}
+
+.main-comment {
+  @include comments();
+  @include arrangement($fd: column, $jc: space-between, $ai: start);
+  @include commentFooter();
+}
+
+.next-comment {
+  @include comments($bgc: rgba(61, 207, 183, 0.123));
+  @include arrangement($fd: column, $jc: space-between, $ai: start);
+  @include commentFooter();
+  transform: scale(0.9);
+}
+
+.line {
+  background-color: white;
+  width: 100%;
+  height: 1px;
+}
+
+.comment-navigation {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  gap: 20px;
+  > img {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  section {
+    padding: 64px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  section {
+    padding: 16px;
+  }
+  h5 {
+    font-size: 24px;
+  }
+  .fs_14 {
+    font-size: 14px;
+  }
+  .fs_13 {
+    font-size: 13px;
+  }
+  .line {
+    min-width: 10px;
+  }
+  .quotes {
+    > img {
+      width: 40px;
+      left: 0;
+      top: 10px;
+    }
+  }
+}

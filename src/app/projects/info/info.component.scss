@@ -1,0 +1,220 @@
+@import "./../../../styles.scss";
+
+@mixin firaCode($w: 700, $fs: 64px) {
+  font-family: "Fira Code", Arial, Helvetica, sans-serif;
+  font-weight: $w;
+  font-size: $fs;
+}
+span {
+  padding: 8px 0;
+}
+section {
+  padding: 0 62px;
+  box-sizing: border-box;
+  display: flex;
+  height: 600px;
+}
+
+h6 {
+  font-size: 128px;
+  color: #3dcfb6;
+}
+article {
+  @include arrangement($g: 24px);
+  background: linear-gradient(to top right, #1c1c1c, 80%, #08463b);
+  padding: 32px;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.title {
+  @include firaCode();
+}
+
+.headline {
+  @include firaCode($fs: 24px);
+  color: #3dcfb6;
+}
+
+.project-content {
+  @include arrangement($fd: column, $ai: start, $jc: space-between);
+  height: 100%;
+  width: 50%;
+}
+
+.project-image {
+  @include arrangement($fd: column, $ai: end, $jc: space-between);
+  height: 100%;
+  width: 50%;
+  > button {
+    font-size: 18px;
+    font-weight: 400;
+    color: #3dcfb6;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    @include arrangement($g: 16px);
+  }
+  > div {
+    display: flex;
+    max-width: 533px;
+    align-self: center;
+  }
+}
+
+.project-image_picture {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.project-links {
+  @include arrangement($g: 24px);
+  padding-top: 24px;
+  > button {
+    cursor: not-allowed;
+  }
+}
+.project-links_link {
+  @include arrangement($g: 8px);
+  padding: 12px;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  &:hover {
+    border-color: #3dcfb6;
+    color: #3dcfb6;
+    > img {
+      transition-duration: 300ms;
+      transform: translateX(3px) translateY(-3px);
+    }
+  }
+}
+
+.used-skills {
+  display: flex;
+  gap: 16px;
+}
+
+.used-skills_element {
+  @include arrangement($g: 4px);
+  > span {
+    width: max-content;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  h6 {
+    font-size: 96px;
+  }
+  .title {
+    font-size: 52px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  article {
+    flex-direction: column-reverse;
+    border-radius: unset;
+    padding: 0;
+    justify-content: start;
+    gap: 0;
+  }
+  section {
+    padding: 0;
+    height: 100%;
+    display: grid;
+  }
+
+  .project-content {
+    width: 100%;
+    padding: 24px 12px 48px 12px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  .project-image {
+    width: 100%;
+    height: auto;
+    padding: 12px 12px 0 12px;
+    box-sizing: border-box;
+    > div {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  h6 {
+    font-size: 72px;
+  }
+  .title {
+    font-size: 48px;
+  }
+  .headline {
+    font-size: 24px;
+  }
+
+  .next-project {
+    position: absolute;
+    bottom: 5px;
+  }
+  .project-image_picture {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) , (max-height: 840px) {
+  h6 {
+    font-size: 64px;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .headline {
+    font-size: 16px;
+  }
+
+  
+}
+
+@media screen and (max-width: 500px) and (max-height: 500px) {
+  .description{
+    max-height: 50px;
+    overflow-y: auto;
+  }
+}
+
+
+@media screen and (max-width: 425px) and (max-height: 640px) {
+  h6 {
+    font-size: 32px;
+  }
+  .title {
+    font-size: 18px !important;
+  }
+  .project-content {
+    padding: 0 8px 32px 8px;
+    > span {
+      font-size: 14px;
+    }
+  }
+  .used-skills {
+    flex-wrap: wrap;
+  }
+  .used-skills_element {
+    > img {
+      width: 14px;
+    }
+    > span {
+      font-size: 14px;
+    }
+  }
+  .project-links_link{
+    font-size: 12px;
+  }
+  .project-image_picture {
+    width: 280px;
+    height: 138px;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,18 @@
+
+
+  .center{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1350px) {
+  app-about,
+  app-projects,
+  app-skills,
+  app-feedback,
+  app-contact {
+    display: block;
+    padding-top: 103px; /* based on navbar height */
+    margin-top: -103px;
+  }
+}
