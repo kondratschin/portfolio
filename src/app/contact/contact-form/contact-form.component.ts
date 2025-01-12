@@ -6,7 +6,6 @@ import { TranslationService } from '../../shared/translation.service';
 import { HttpClient } from '@angular/common/http';
 import { ScreenService } from '../../shared/screen.service';
 import { ContactData } from '../../interfaces/contactData.interface';
-import { ResponseData } from '../../interfaces/response.interface';
 
 
 @Component({
@@ -18,12 +17,14 @@ import { ResponseData } from '../../interfaces/response.interface';
 })
 export class ContactFormComponent {
 
+
   constructor(
     public language: TranslationService,
-    public screen: ScreenService
+    public screen: ScreenService,
+    private http: HttpClient // Correctly inject HttpClient
   ) {}
   
-  private http = Inject(HttpClient);
+ 
 
   privacyPolicyChecked = false;
   formSubmitted = signal(false);
@@ -36,7 +37,7 @@ export class ContactFormComponent {
   };
 
   post = {
-    endPoint: 'https://www.kondratschin.com/sendMail.php',
+    endPoint: 'https://kondratschin.com/sendMail.php',
     body: (payload: any) => JSON.stringify(payload),
     options: {
       headers: {
@@ -53,7 +54,7 @@ export class ContactFormComponent {
       this.http
         .post(this.post.endPoint, this.post.body(this.contactData))
         .subscribe({
-          next: (response: ResponseData) => {
+          next: (response: any) => {
             ngForm.resetForm();
           },
           error: (error: any) => {
