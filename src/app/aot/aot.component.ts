@@ -25,7 +25,7 @@ export class AotComponent {
   sideLinks = [
     {
       id: 'mail',
-      link: 'mailto:kondratschin@gmail.com',
+      link: 'mailto:info@kondratschin.com',
       target: '_self',
     },
     {

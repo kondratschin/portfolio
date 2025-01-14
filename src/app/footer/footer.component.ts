@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { ScreenService } from '../shared/screen.service';
 import { CommonModule } from '@angular/common';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-footer',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.scss',
 })
@@ -23,18 +24,13 @@ export class FooterComponent {
       target: '_blank'
     },
     {
-      link:'mailto:kondratschin@gmail.com',
+      link:'mailto:info@kondratschin.com',
       name:'Email',
       target: '_blank'
     },
     {
-      link:'legal',
+      link:'/legal',
       name:'Legal Notice',
-      target: '_self'
-    },
-    {
-      link:'privacy',
-      name:'Privacy Notice',
       target: '_self'
     },
   ]
